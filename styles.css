@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+hr {
+  margin: 0;
+}
+
+.mt--5 {
+  margin-top: 50px;
+}
+.w--100 {
+  width: 100%;
+}
+
+.title--1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+.primary--text {
+  font-size: 24px;
+}
+
+.secondary--text {
+  color: #00000086;
+}
+.heading--text,
+h4,
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+.paragraph--text,
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  background-color: rgb(255, 255, 255) !important;
+  text-align: center;
+  /* Shadow */
+  -webkit-box-shadow: 0px 12px 30px -14px #000000;
+  box-shadow: 0px 12px 30px -14px #000000;
+}
+.navbar--title {
+  margin: 0;
+  padding: 10px;
+  font-size: 40px;
+  cursor: pointer;
+}
+.article-list {
+  /* Temporary */
+  margin-top: 70px;
+  /* margin: 0 200px; */
+}
+.article {
+  /* display: grid;
+  grid-template-columns: auto auto auto; */
+  color: black;
+  margin-top: 50px;
+  padding: 15px;
+  
+   /* Shadow */
+  -webkit-box-shadow: 0px 2px 33px -2px #000000;
+  box-shadow: 0px 2px 33px -2px #000000;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  background-color: white;
+}
+.article:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.article__date {
+  margin: 0 40px;
+}
+.article__topic {
+  margin: 0;
+  padding: 0;
+}
+
+.article__title {
+  margin-top: 5px;
+  font-size: 35px;
+}
+.article__desc {
+  margin: 10px;
+}
+.article__writer {
+  font-weight: bold;
+  margin: 5px;
+}
+
+/* ==================================================================================================== */*
+/* Artcile - 1  */
+
+.article-1__header__text {
+  position: relative;
+}
+.article-1__header__text > div {
+  margin: 30% 30px;
+  text-align: center;
+}
+.article-1__header__text > div > h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.article-1__header__text > div > p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+}
+.article-1__imgContainer > img,
+.article-3__imgContainer > img {
+  width: 100%;
+}
+.article-author {
+  display: flex;
+  align-items: center;
+}
+.article-author > img {
+  width: 100px;
+}
+.article-author > p {
+  font-weight: bold;
+  margin-left: 20px;
+}
+.article--release {
+  display: flex;
+}
+
+.article--release > p {
+  margin-left: 20px;
+}
+#myArticle1,
+#myArticle2,
+#myArticle3 {
+  display: none;
+}
+
+
+
+
